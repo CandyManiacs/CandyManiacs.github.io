@@ -1,0 +1,20 @@
+Sneak Peek 1.0.1.0 09/21/2014
++ Doubled the number of zombies
++ Added support for localization
++ Decreased cool-down time between zombie attacks
++ Added background music
++ Added grey and red zombies
++ Added splash texture to Settings dialog
++ Added both character to the Main Menu screen
++ Updated Credits
++ Player stats are no longer lost when player dies
++ Player now faces in the direction of the camera
++ Character icons now match character types
++ Camera no longer clips through things so much
++ Reduced height that characters can automatically step over
++ Some additional candies added to map
++ Fixed number of bugs that resulted in exceptions being thrown
++ Fixed number of bugs that affected Remove Character
+
+Sneak Peek 1.0.0.0 09/18/2014
++ Initial Sneak Peek Release

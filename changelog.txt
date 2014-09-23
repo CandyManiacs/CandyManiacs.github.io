@@ -1,4 +1,4 @@
-Sneak Peek 1.0.1.0 09/21/2014
+Sneak Peek 1.0.1.0 09/22/2014
 + Doubled the number of zombies
 + Added support for localization
 + Decreased cool-down time between zombie attacks

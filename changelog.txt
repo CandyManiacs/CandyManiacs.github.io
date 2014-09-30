@@ -1,3 +1,44 @@
+Sneak Peek 0.2.0.0 09/30/2014
++ Added ability for character to learn new skills by reading scrolls that players can buy or pickup
++ Added survivor characters that begin without any weapons, armor, shields, items, skills or coins
++ Added an assortment of candy inspired weapons, shields and armor
++ Added player hurt effect
++ Added invisible boundaries 
++ Added collect keys quest
++ Added collect scrolls quest
++ Added collect coins quest
++ Added scroll pickups
++ Added scrolls to zombies drop list
++ Added scrolls to npc vendor item list
++ Add key pickups
++ Added keys to zombies drop list
++ Added keys to npc vendor item list
++ Add full health potion pickups
++ Added full health potion to zombies drop list
++ Added full health potion to npc vendor item list
++ Add full mana potion pickups
++ Added full mana potion to zombies drop list
++ Added full mana potion to npc vendor item list
++ Changed keys that u buy to be more like pickups
++ Game now remembers what character was selected
++ Game now remembers what quests were active
++ Game now remembers which skill was last used
++ Game now remembers the states and position of stats dialog
++ Game now remembers the states and position of items dialog
++ Game now remembers the states and position of skills dialog
++ Game now remembers the states and position of quests dialog
++ Vender now buys back items at 50% discount
++ Sounds are now played when mouse goes over button controls
++ Sounds are now played when buttons are clicked
++ Doubled the time dropped items exist
++ Fixed broken walking backwards
++ Fix bug where the wrong skill in the shortcut bar would be activated 
++ Icons are now screenshots of items
++ Redid pickup quests logic to count when items are picked up and not use the number of items in the characters inventory
++ Changed version number to begin with 0
++ Quests dialog now stays opened until closed.
+
+
 Sneak Peek 1.0.1.0 09/22/2014
 + Doubled the number of zombies
 + Added support for localization
@@ -15,6 +56,7 @@ Sneak Peek 1.0.1.0 09/22/2014
 + Some additional candies added to map
 + Fixed number of bugs that resulted in exceptions being thrown
 + Fixed number of bugs that affected Remove Character
+
 
 Sneak Peek 1.0.0.0 09/18/2014
 + Initial Sneak Peek Release

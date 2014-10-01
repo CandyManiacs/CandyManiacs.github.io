@@ -1,3 +1,9 @@
+Sneak Peek 0.2.0.2 09/30/2014
++ Fixed label on Respawn button in Respawn dialog
+
+Sneak Peek 0.2.0.1 09/30/2014
++ Fixed label on Start button in Character Creation dialog
+
 Sneak Peek 0.2.0.0 09/30/2014
 + Added ability for character to learn new skills by reading scrolls that players can buy or pickup
 + Added survivor characters that begin without any weapons, armor, shields, items, skills or coins

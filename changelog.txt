@@ -1,3 +1,9 @@
+Sneak Peek 0.2.0.3 10/01/2014
++ Music now stops playing when quitting the game
++ Fixed bug that broke Create Character
++ Fixed bug that resulted in the selected character not being remembered
++ Fixed bug that resulted in the last character continuing to be displayed after it was removed
+
 Sneak Peek 0.2.0.2 09/30/2014
 + Fixed label on Respawn button in Respawn dialog
 

@@ -1,3 +1,13 @@
+Sneak Peek 0.3.0.0 10/13/2014
++ New prettier UI
++ Added Level Builder  (so you can create your own candy filled levels!)
++ Added ability to select level, game mode and difficulty level
++ Added support for screen resolutions of 800x600 and greater
++ Added partial, incomplete and untested support for joystick controllers
++ Added shortcut keys to toggle player stats, skills, items and quests dialogs
++ Fixed issue where shortcut bar where text would not always display in white
++ Gravity now slightly funky floaty bouncy (try running downhill)
+
 Sneak Peek 0.2.0.3 10/01/2014
 + Music now stops playing when quitting the game
 + Fixed bug that broke Create Character

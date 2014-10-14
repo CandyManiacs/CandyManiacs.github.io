@@ -66,7 +66,6 @@
 			font-family: Helvetica, Verdana, Arial, sans-serif;
 			background-color: white;
 			color: black;
-			text-align: center;
 		}
 		a:link, a:visited {
 			color: #000;
@@ -116,7 +115,7 @@
 		</style>
 	</head>
 	<body>
-		<p class="header"><span>Unity Web Player | </span>Candy Maniacs</p>
+<center>
 		<div class="content">
 			<div id="unityPlayer">
 				<div class="missing">
@@ -131,6 +130,104 @@
 				</div>
 			</div>
 		</div>
-		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+
+<hr>
+
+<h1>Keyboard Mouse Controller Bindings</h1>
+
+<h2>Game</h2>
+<table border=1 style="empty-cells: show" cellpadding="10">
+	<tr><th>Control</th> <th>Keyboard</th> <th>Mouse</th> <th>Controller</th> <th>Comments</th></tr>
+
+	<tr><th>Forwards</td> <td align="center">up arrow | w</td> <td align="center"></td> <td align="center">Joystick Y Axis up</td> <td></td></tr>
+	<tr><th>Backwards</td> <td align="center">down arrow | s</td> <td align="center"></td> <td align="center">Joystick Y Axis down</td> <td></td></tr>
+	<tr><th>Strafe Left</td> <td align="center">left arrow | a</td> <td align="center"></td> <td align="center">Joystick X Axis left</td> <td></td></tr>
+	<tr><th>Strafe Right</td> <td align="center">right arrow | d</td> <td align="center"></td> <td align="center">Joystick X Axis right</td> <td></td></tr>
+	
+	<tr><th>Look Left</td> <td align="center"></td> <td align="center">mouse left</td> <td align="center">Joystick 4th Axis left</td> <td></td></tr>
+	<tr><th>Look Right</td> <td align="center"></td> <td align="center">mouse right</td> <td align="center">Joystick 4th Axis right</td> <td></td></tr>
+	<tr><th>Look Up</td> <td align="center"></td> <td align="center">mouse up</td> <td align="center">Joystick 5th Axis up</td> <td></td></tr>
+	<tr><th>Look Down</td> <td align="center"></td> <td align="center">mouse down</td> <td align="center">Joystick 5th Axis down</td> <td></td></tr>
+
+	<tr><th>Run</td> <td align="center">left shift | right shift</td> <td align="center"></td> <td align="center">Joystick 8th Axis down</td> <td></td></tr>
+	<tr><th>Jump</td> <td align="center">space</td> <td align="center"></td> <td align="center">Joystick 5th button</td> <td></td></tr>
+
+	<tr><th>Zoom</td> <td align="center">left cmd | right cmd</td> <td align="center">mouse 2</td> <td align="center"></td> <td></td></tr>
+	
+	<tr><th>Use Weapon</td> <td align="center">left ctrl | right ctrl</td> <td align="center">mouse 0</td> <td align="center">Joystick 3rd Axis left</td> <td></td></tr>
+	<tr><th>Use Skill</td> <td align="center">left alt | right alt</td> <td align="center">mouse 1</td> <td align="center">Joystick 3rd Axis right</td> <td></td></tr>
+
+	<tr><th>Use Health</td> <td align="center">h</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Use Mana</td> <td align="center">m</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+
+	<tr><th>Joystick Mode</td> <td align="center"></td> <td align="center"></td> <td align="center">Joystick 6th button</td> <td></td></tr>
+	
+	<tr><th>Use Shortcut 1</td> <td align="center">1</td> <td align="center"></td> <td align="center">Joystick 0th button</td> <td>only when not in Joystick mode</td></tr>
+	<tr><th>Use Shortcut 2</td> <td align="center">2</td> <td align="center"></td> <td align="center">Joystick 1st button</td> <td>only when not in Joystick mode</td></tr>
+	<tr><th>Use Shortcut 3</td> <td align="center">3</td> <td align="center"></td> <td align="center">Joystick 2nd button</td> <td>only when not in Joystick mode</td></tr>
+	<tr><th>Use Shortcut 4</td> <td align="center">4</td> <td align="center"></td> <td align="center">Joystick 3rd button</td> <td>only when not in Joystick mode</td></tr>
+	<tr><th>Use Shortcut 4</td> <td align="center">5</td> <td align="center"></td> <td align="center">Joystick 4th button</td> <td>only when not in Joystick mode</td></tr>
+
+	<tr><th>Toggle Stats</td> <td align="center">f1</td> <td align="center"></td> <td align="center">Joystick 0th button</td> <td>key may not work in Web Player, only when in Joystick mode</td></tr>
+	<tr><th>Toggle Skills</td> <td align="center">f2</td> <td align="center"></td> <td align="center">Joystick 1st button</td> <td>key may not work in Web Player, only when in Joystick mode</td></tr>
+	<tr><th>Toggle Items</td> <td align="center">f3</td> <td align="center"></td> <td align="center">Joystick 3rd button</td> <td>key may not work in Web Player, only when in Joystick mode</td></tr>
+	<tr><th>Toggle Quests</td> <td align="center">f4</td> <td align="center"></td> <td align="center">Joystick 2nd button</td> <td>key may not work in Web Player, only when in Joystick mode</td></tr>
+
+	<tr><th>Chat</td> <td align="center">enter | return</td> <td align="center"></td> <td align="center"></td> <td>multiplayer only</td></tr>
+
+	<tr><th>Menu</td> <td align="center">tab | escape</td> <td align="center"></td> <td align="center">Joystick 7th button</td> <td>key may not work in Web Player</td></tr>
+
+	<tr><th>Console</td> <td align="center">`</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+</table>
+
+<h2>Level Editor</h2>
+<table border=1 style="empty-cells: show" cellpadding="10">
+	<tr><th>Control</th> <th>Keyboard</th> <th>Mouse</th> <th>Controller</th> <th>Comments</th></tr>
+	
+	<tr><th>X Axis</td> <td align="center">left arrow | right arrow</td> <td align="center">Mouse X Axis</td> <td align="center"></td> <td></td></tr>
+	<tr><th>Y Axis</td> <td align="center">page down | page up</td> <td align="center">Mouse Y Axis</td> <td align="center"></td> <td></td></tr>
+	<tr><th>Z Axis</td> <td align="center">down arrow | up arrow</td> <td align="center">Mouse Scroll Wheel</td> <td align="center"></td> <td></td></tr>
+
+	<tr><th>Roll</td> <td align="center">, | .</td> <td align="center"></td> <td align="center"></td> <td>only used while in Rotation mode</td></tr>
+	<tr><th>Pitch</td> <td align="center">down arrow | up arrow</td> <td align="center"></td> <td align="center"></td> <td>only used while in Rotation mode</td></tr>
+	<tr><th>Yaw</td> <td align="center">left arrow | right arrow</td> <td align="center"></td> <td align="center"></td> <td>only used while in Rotation mode</td></tr>
+
+	<tr><th>Scaling</td> <td align="center">- | =</td> <td align="center"></td> <td align="center"></td> <td>only used while in Scale mode</td></tr>
+	
+	<tr><th>Rate</td> <td align="center">left shift | right shift</td> <td align="center"></td> <td align="center"></td> <td>left shift = .1x, right shift = 10x</td></tr>
+	
+	<tr><th>Focus</td> <td align="center">f</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	
+	<tr><th>Hide Panels</td> <td align="center">escape</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	
+	<tr><th>Reset</td> <td align="center">home</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	
+	<tr><th>Add</td> <td align="center">a</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Duplicate</td> <td align="center">d</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Delete</td> <td align="center">delete</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Translate</td> <td align="center">t</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Rotate</td> <td align="center">r</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Scale</td> <td align="center">s</td> <td align="center"></td> <td align="center"></td> <td>only when Selected mode is enabled</td></tr>
+	<tr><th>Unselect</td> <td align="center">u</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	
+	<tr><th>Camera</td> <td align="center">c</td> <td align="center"></td> <td align="center"></td> <td>switch to Camera mode</td></tr>
+	<tr><th>Selected</td> <td align="center">e</td> <td align="center"></td> <td align="center"></td> <td>switch to Selected mode</td></tr>
+	<tr><th>Rotation Mode</td> <td align="center">left alt | right alt</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Selected Mode</td> <td align="center">left ctrl  / left ctrl</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Mouse Look</td> <td align="center">m</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+
+	<tr><th>Target Selected</td> <td align="center"></td> <td align="center">mouse 0</td> <td align="center"></td> <td></td></tr>
+	<tr><th>Rotate Camera</td> <td align="center"></td> <td align="center">mouse 1</td> <td align="center"></td> <td></td></tr>
+	<tr><th>Pan Camera</td> <td align="center"></td> <td align="center">mouse 2</td> <td align="center"></td> <td></td></tr>
+
+	<tr><th>Display Info</td> <td align="center">i</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+	<tr><th>Display Labels</td> <td align="center">l</td> <td align="center"></td> <td align="center"></td> <td></td></tr>
+
+	<tr><th>Toggle Asset Browser</td> <td align="center">f1</td> <td align="center"></td> <td align="center"></td> <td>may not work in Web Player, click Assets button instead</td></tr>
+	<tr><th>Toggle Preview</td> <td align="center">f2</td> <td align="center"></td> <td align="center"></td> <td>may not work in Web Player, click Preview button instead</td></tr>
+	<tr><th>Toggle Level Browser</td> <td align="center">f3</td> <td align="center"></td> <td align="center"></td> <td>may not work in Web Player, click Level button instead</td></tr>
+	<tr><th>Toggle Inspector</td> <td align="center">f4</td> <td align="center"></td> <td align="center"></td> <td>may not work in Web Player, click Inspector button instead</td></tr>
+</table>		
+</center>
 	</body>
 </html>

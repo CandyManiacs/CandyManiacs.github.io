@@ -1,3 +1,29 @@
+Sneak Peek 0.4.0.0 10/28/2014
++ Added new free for all, frenemies, mad house and insane asylum single player game modes
++ Added smaller scaled version of CandyLand level
++ Added candy themed pickups to boss zombie drops
++ Added out of bounds objects to level so that characters cannot walk off the level
++ Players are now able to interact with NPC characters when close by using the new interact binding
++ Changed AI logic so that ai characters are move lively
++ Redid safe area logic so that enemies will now ignore the target when they enter a safe area
++ Increased size of spawn areas so that characters are spread out more
++ Changed to new bouncy bouncy gravity
++ Reduced how high characters can jump
++ Now when characters are removed any associated information is completely deleted from saves
++ Helm now has an inside texture
++ Made numerous changes to UI code so that it will behave as more expected
++ Changed style of scrollbars to match rest of UI
++ Scroll icons are now used to represent scrolls
++ Stats level up button now only displays for stats that can be leveled up
++ Dialog position and state are now saved as soon as it changes
++ Cursor is now locked when player respawns
++ Added numerous new keyboard bindings, mostly for future use
++ Added pickups to level builder
++ Added endless fun, free for all, frenemies, mad house and insane asylum spawners to level builder
++ Level builder duplicate operation now uses the position, rotation, and scale of the source game object
++ Level builder assets now scale properly
+
+
 Sneak Peek 0.3.0.0 10/13/2014
 + New prettier UI
 + Added Level Builder  (so you can create your own candy filled levels!)
@@ -8,17 +34,21 @@ Sneak Peek 0.3.0.0 10/13/2014
 + Fixed issue where shortcut bar where text would not always display in white
 + Gravity now slightly funky floaty bouncy (try running downhill)
 
+
 Sneak Peek 0.2.0.3 10/01/2014
 + Music now stops playing when quitting the game
 + Fixed bug that broke Create Character
 + Fixed bug that resulted in the selected character not being remembered
 + Fixed bug that resulted in the last character continuing to be displayed after it was removed
 
+
 Sneak Peek 0.2.0.2 09/30/2014
 + Fixed label on Respawn button in Respawn dialog
 
+
 Sneak Peek 0.2.0.1 09/30/2014
 + Fixed label on Start button in Character Creation dialog
+
 
 Sneak Peek 0.2.0.0 09/30/2014
 + Added ability for character to learn new skills by reading scrolls that players can buy or pickup

@@ -1,29 +1,29 @@
 Sneak Peek 0.5.0.0 11/19/2014
-+ added support for character customizations
-+ added character customization dialog
-+ added customizable survivor character
-+ removed survivor 1 character
-+ removed survivor 2 character
-+ added torch weapon, pickup and level builder asset
-+ friendlies now flee when severely wounded
-+ frenemies now flee when severely wounded
-+ includes numerous tweaks and improvements to ui
-+ added 5 second respawn delay
-+ added fog level builder asset
-+ added custom spawner level builder asset
-+ swordsmans no longer start with stomp and blue spirit skills
-+ berserkers no longer start with blue spirit skill
-+ wizards no longer have start with stomp skill
-+ greatly increased distance zombies will move towards targets
-+ fixed issue that resulted in characters not always attacking when they should have been
-+ fixed issue where pickups fall through ground
-+ reduced greatly how far gold will be thrown when it is spawned
-+ changed it so that pickups do not roll as much
-+ character now immediately attack their target as soon as they move into attack distance
-+ character now gets slightly closer to target before attacking them
-+ reduced by 50% the number of characters spawned in insane asylum game mode
-+ reduced by 50% the number of characters spawned in free for all game mode
-+ reduced by 50% the number of characters spawned in mad house game mode
++ Added support for character customizations
++ Added character customization dialog
++ Added customizable survivor character
++ Removed survivor 1 character
++ Removed survivor 2 character
++ Added torch weapon, pickup and level builder asset
++ Friendlies now flee when severely wounded
++ Frenemies now flee when severely wounded
++ Included numerous tweaks and improvements to ui
++ Added 5 second respawn delay
++ Added fog level builder asset
++ Added custom spawner level builder asset
++ Swordsmans no longer start with stomp and blue spirit skills
++ Berserkers no longer start with blue spirit skill
++ Wizards no longer have start with stomp skill
++ Greatly increased distance zombies will move towards targets
++ Fixed issue that resulted in characters not always attacking when they should have been
++ Fixed issue where pickups fall through ground
++ Reduced greatly how far gold will be thrown when it is spawned
++ Changed it so that pickups do not roll as much
++ Characters now immediately attack their target as soon as they move into attack distance
++ Characters now gets slightly closer to target before attacking them
++ Reduced by 50% the number of characters spawned in insane asylum game mode
++ Reduced by 50% the number of characters spawned in free for all game mode
++ Reduced by 50% the number of characters spawned in mad house game mode
 
 
 Sneak Peek 0.4.0.0 10/28/2014

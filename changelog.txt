@@ -1,3 +1,31 @@
+Sneak Peek 0.5.0.0 11/19/2014
++ added support for character customizations
++ added character customization dialog
++ added customizable survivor character
++ removed survivor 1 character
++ removed survivor 2 character
++ added torch weapon, pickup and level builder asset
++ friendlies now flee when severely wounded
++ frenemies now flee when severely wounded
++ includes numerous tweaks and improvements to ui
++ added 5 second respawn delay
++ added fog level builder asset
++ added custom spawner level builder asset
++ swordsmans no longer start with stomp and blue spirit skills
++ berserkers no longer start with blue spirit skill
++ wizards no longer have start with stomp skill
++ greatly increased distance zombies will move towards targets
++ fixed issue that resulted in characters not always attacking when they should have been
++ fixed issue where pickups fall through ground
++ reduced greatly how far gold will be thrown when it is spawned
++ changed it so that pickups do not roll as much
++ character now immediately attack their target as soon as they move into attack distance
++ character now gets slightly closer to target before attacking them
++ reduced by 50% the number of characters spawned in insane asylum game mode
++ reduced by 50% the number of characters spawned in free for all game mode
++ reduced by 50% the number of characters spawned in mad house game mode
+
+
 Sneak Peek 0.4.0.0 10/28/2014
 + Added new free for all, frenemies, mad house and insane asylum single player game modes
 + Added smaller scaled version of CandyLand level
